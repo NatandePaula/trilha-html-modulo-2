@@ -20,11 +20,13 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(201,235,237);
     padding: 10px 20px 0px;
+    color:rgb(46,98,172) ;
+    font-size: 20px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+     background-color: white;
     min-height: 150px;
 }
 .content {
@@ -33,6 +35,25 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(201,235,237);
     min-height: 150px;
+    text-align: center;
+    color:rgb(46,98,172) ;
+    font-size: 18px
+}
+p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+td{
+    padding: 2px;
+    padding-right: 10px;
+}
+th{
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    
 }
